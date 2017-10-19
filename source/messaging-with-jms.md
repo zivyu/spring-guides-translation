@@ -2,9 +2,38 @@
 
 > 原文：[Messaging with JMS](https://spring.io/guides/gs/messaging-jms/)
 >
-> 译者：
+> 译者：zivyu
 >
 > 校对：
+
+## Messaging with JMS
+本指南将带你体验使用JMS broker发布和订阅消息的过程。
+
+### 你将会得到什么
+你会构建一个应用，这个应用使用Spring的`JmsTemplate`来发布一条消息，并使用一个带`@JmsListener`注解的方法来订阅它。
+
+### 你需要什么
+* 大约十五分钟
+* JDK1.8或更高版本
+* Gradle 2.3+或Maven 3.0+
+* 你也可以直接导入代码到IDE中：
+
+
+### 怎么完成本指南
+像其他Getting Started guides一样，你可以从零开始，然后完成每一步，也可以跳过一些你熟悉的步骤，不管是哪种方式，
+
+如果是从零开始，请先移步Build with Gradle。
+
+如果准备跳过基本的步骤，按照如下方式：
+* 下载并解压本篇指南的源码，或使用Git命令：
+* 进入`gs-messaging-jms/initial`目录
+* 跳到
+
+如果你完成了上述步骤，可以使用`gs-messaging-jms/complete`中的代码来检查你的结果。
+
+## 使用Gradle来构建
+
+
 
 在此处编写正文，基本翻译规范：
 
